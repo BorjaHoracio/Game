@@ -1,0 +1,19 @@
+<div class="justify-content-center margin row">
+	<div class="flex05">
+		{{#basic-dropdown horizontalPosition='right' as |dd|}}
+			{{#dd.trigger class='button'}}
+				<div class="row align-items-center justify-content-space-between">
+					<span class="align-self-center">Chose object</span> 
+					<span class="point align-self-center"></span>
+				</div>
+			{{/dd.trigger}}
+			{{#dd.content class='justify-content-center align-items-center width20 column'}}
+				<span class="text-align-center content padding">Paper</span>
+				<span class="text-align-center content padding">Scissors</span>
+				<span class="text-align-center content padding">Rock</span>
+			{{/dd.content}}
+		{{/basic-dropdown}}
+		<span></span>
+	</div>
+	<div class="flex05"></div>
+</div>
