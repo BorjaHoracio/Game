@@ -8,6 +8,38 @@ body {
 	background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+h1 {
+  text-align: center;
+}
+.v {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: "FlipH";
+	filter: FlipH;
+}
+.Paper {
+	background-image: url('/assets/imgs/paper.png');
+	width: 145px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Scissor {
+	background-image: url('/assets/imgs/scissors.png');
+	width: 170px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Rock {
+	background-image: url('/assets/imgs/rock.png');
+	width: 145px;
+	height: 125px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .flex1{
   flex: 1;
 }
@@ -32,6 +64,12 @@ body {
 .align-items-flex-start {
   align-items: flex-start;
 }
+.align-items-center {
+	align-items: center;
+}
+.text-align-center {
+	text-align: center;
+}
 .row{
   flex-direction: row;
   display: flex;
@@ -47,6 +85,9 @@ body {
 .margin-left-right {
   margin: 0px 12px;
 }
+.large-margin-top {
+	margin-top: 24px;
+}
 .margin {
   margin: 12px;
 }
@@ -55,9 +96,6 @@ body {
 }
 .padding {
 	padding: 12px;
-}
-h1 {
-  text-align: center;
 }
 .d {
   width: 100px;
